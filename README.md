@@ -1,12 +1,10 @@
-# Data Radar – Research and Data Analysis Assistant
+# MANUSCRIPT EDITORIAL REVIEWER AND INSPECTION TOOL
 
-**Data Radar** is an interactive, step‑by‑step data analysis tool built with Streamlit. It guides researchers through data upload, cleaning, descriptive statistics, hypothesis testing, and predictive modelling – all without requiring programming skills.
+**MERIT** is an interactive, step‑by‑step Manuscript editorial reviewing platform that allows indepth examination of methodology, statistical analysis and reporting of results in academic scientific manuscripts.
 
 ## Features
-- Upload CSV/Excel files (PC or Android)
-- Automatic variable type detection (continuous/categorical)
-- Comprehensive data cleaning with multiple imputation methods
-- Interactive charts (histograms, boxplots, pie, bar) with PNG downloads
-- Summary statistics and normality tests
-- Two‑variable tests (t-test, Mann‑Whitney, ANOVA, chi‑square) and regression models
-- Analysis report generation
+- Upload word/ pdf format of the manuscript (PC or Android)
+- Reporting guidelines assisted review
+- Assisted Scoring of performance
+- Editorial review report generation
+- All data is processed locally and cleared after session termination
