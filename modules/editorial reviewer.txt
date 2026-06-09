@@ -1,0 +1,19 @@
+editorial-review-ai/
+│
+├── app.py
+├── requirements.txt
+├── guidelines/
+│   ├── consort.json
+│   ├── strobe.json
+│   ├── prisma.json
+│   └── sampl.json
+│
+├── modules/
+│   ├── parser.py
+│   ├── regex_engine.py
+│   ├── statistics_checker.py
+│   ├── coherence_engine.py
+│   ├── highlighter.py
+│   └── scorer.py
+│
+└── output/

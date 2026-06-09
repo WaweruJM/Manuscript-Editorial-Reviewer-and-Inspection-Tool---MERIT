@@ -1,0 +1,36 @@
+# Core dependencies
+streamlit>=1.33
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+
+# Visualization
+matplotlib>=3.7
+plotly>=5.14
+
+# Machine Learning & Statistics
+scikit-learn>=1.2
+statsmodels>=0.14
+
+# Document Processing
+openpyxl>=3.1
+python-docx>=0.8.11
+PyPDF2>=3.0
+pdfplumber>=0.10.0
+
+# Text Processing
+nltk>=3.8
+spacy>=3.5
+regex>=2023.0
+
+# Data Validation
+pydantic>=2.0
+
+# Utilities
+python-dateutil>=2.8
+typing-extensions>=4.5
+click>=8.1
+
+# Optional but recommended
+jupyter>=1.0
+nbformat>=5.9

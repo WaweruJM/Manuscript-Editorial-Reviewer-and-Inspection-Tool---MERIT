@@ -1,0 +1,106 @@
+st.markdown(
+    """
+<style>
+    /* Fixed Header */
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #1E2A47;
+        color: white;
+        padding: 1.2rem 2rem;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        border-bottom: 3px solid #FF6B6B;
+        text-align: center;
+    }
+
+    /* Title */
+    .fixed-header h1 {
+        margin: 0;
+        font-size: 3rem;   /* 🔥 enlarged */
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    /* Subtitle */
+    .fixed-header .subtitle {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;  /* 🔥 enlarged */
+        font-weight: 400;
+        opacity: 0.95;
+        line-height: 1.4;
+    }
+
+    /* Logo */
+    .logo-icon {
+        font-size: 2.8rem;
+    }
+
+    /* Fixed Footer */
+    .fixed-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #1E2A47;
+        color: #f0f0f0;
+        text-align: center;
+        padding: 0.6rem;
+        font-size: 0.85rem;
+        z-index: 1000;
+        border-top: 1px solid #FF6B6B;
+    }
+
+    .fixed-footer a {
+        color: #FFB347;
+        text-decoration: none;
+    }
+
+    .fixed-footer a:hover {
+        text-decoration: underline;
+    }
+
+    /* Content spacing */
+    .content {
+        padding-top: 140px;   /* 🔥 increased due to larger header */
+        padding-bottom: 60px;
+    }
+
+    /* Sidebar offset */
+    section[data-testid="stSidebar"] {
+        top: 120px !important;
+    }
+
+</style>
+""",
+    unsafe_allow_html=True,
+)
+    .fixed-footer a {
+        color: #FFB347;
+        text-decoration: none;
+    }
+
+    .fixed-footer a:hover {
+        text-decoration: underline;
+    }
+
+    /* Content spacing */
+    .content {
+        padding-top: 140px;   /* 🔥 increased due to larger header */
+        padding-bottom: 60px;
+    }
+
+    /* Sidebar offset */
+    section[data-testid="stSidebar"] {
+        top: 120px !important;
+    }
+
+</style>
+""",
+    unsafe_allow_html=True,
+)

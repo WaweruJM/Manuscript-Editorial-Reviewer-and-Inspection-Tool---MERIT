@@ -1,0 +1,13 @@
+streamlit
+python-docx
+PyMuPDF
+spacy
+nltk
+pandas
+numpy
+scipy
+statsmodels
+regex
+scikit-learn
+reportlab
+openpyxl

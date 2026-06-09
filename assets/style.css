@@ -1,0 +1,194 @@
+/* ========================================== */
+/* STREAMLIT UI HIDING       */
+/* ========================================== */
+header {
+    visibility: hidden;
+}
+[data-testid="stSidebar"] {
+    display: none;
+}
+button[kind="header"] {
+    display: none;
+}
+/* ============================= */
+/* 🔴 MERIT TITLE FONT           */
+/* ============================= */
+.merit-title {
+    color: red;
+    font-family: 'Georgia', 'Times New Roman', serif; 
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 80px !important;
+}
+
+/* ============================= */
+/* 🔴 RED INITIAL LETTERS        */
+/* ============================= */
+.merit-letter {
+    color: red;
+    font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;  /* modern clean */
+    font-weight: 700;
+    font-size: 50px !important;
+}
+/* ========================================== */
+/* 🔒 HEADER (UNCHANGED — EXACT ORIGINAL)     */
+/* ========================================== */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+    padding: 3px;
+    padding-top: env(safe-area-inset-top, 10px);
+    box-sizing: border-box;
+}
+.fixed-header h1 {
+    margin: 0;
+    font-size: 120px;
+    line-height: 0.5;
+    margin-bottom: 1px;
+}
+.fixed-header h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+h1, h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ========================================== */
+/* 🔒 FOOTER (UNCHANGED — EXACT ORIGINAL)     */
+/* ========================================== */
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+/* ========================================== */
+/* 🔒 CONTENT WRAPPER (UNCHANGED STRUCTURE)   */
+/* ========================================== */
+.content {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+/* ========================================== */
+/* 🎯 GLOBAL APP THEME (SAFE AREA ONLY)       */
+/* ========================================== */
+html, body, [class*="css"] {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    font-size: 18px !important;
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+
+/* ========================================== */
+/* 🔵 BLUE EDITORIAL THEME (NON-HEADER ONLY)  */
+/* ========================================== */
+
+/* Headings in content ONLY */
+h3, h4, h5 {
+    font-size: 24px !important;
+    font-weight: 600;
+    color: #2563eb;
+}
+
+/* Paragraph readability */
+p, span, div {
+    font-size: 18px !important;
+    line-height: 1.9 !important;
+}
+
+/* ========================================== */
+/* 📊 METRICS (HIGH VISIBILITY)               */
+/* ========================================== */
+[data-testid="stMetricValue"] {
+    font-size: 32px !important;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 18px !important;
+}
+
+/* ========================================== */
+/* 🔘 BUTTONS (BLUE THEME)                    */
+/* ========================================== */
+.stButton > button {
+    font-size: 18px !important;
+    padding: 12px 26px;
+    border-radius: 10px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    transition: 0.25s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1e40af;
+    color: white;
+}
+
+/* ========================================== */
+/* 📑 TABS                                   */
+/* ========================================== */
+button[role="tab"] {
+    font-size: 18px !important;
+    padding: 10px 22px !important;
+}
+
+/* ========================================== */
+/* 📄 EXPANDER (CRITICAL FOR MANUSCRIPTS)     */
+/* ========================================== */
+.streamlit-expanderContent {
+    font-size: 20px !important;
+    line-height: 2.0 !important;
+    max-height: 520px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* ========================================== */
+/* ⚠️ ALERTS                                 */
+/* ========================================== */
+.stAlert {
+    font-size: 18px !important;
+    border-radius: 8px;
+}
+
+/* ========================================== */
+/* 📜 SCROLLBAR                              */
+/* ========================================== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 10px;
+}
+
+/* ========================================== */
+/* 📝 CAPTIONS                               */
+/* ========================================== */
+.stCaption {
+    font-size: 16px !important;
+    color: #64748b;
+}
